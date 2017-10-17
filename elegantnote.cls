@@ -141,7 +141,7 @@
 
 %%   章节设置
 \RequirePackage[center,pagestyles]{titlesec}
-\renewcommand{\chaptername}{第 \thechapter 章}
+\renewcommand{\chaptername}{~~第 \thechapter 章}
 
 \titleformat{\chapter}[display]{\normalfont}
 {\bfseries\filcenter\LARGE\enspace \color{seco}\chaptername\enspace}{1pt}{\color{seco}\LARGE\bfseries\filcenter}[\@base]
